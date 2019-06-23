@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/pic">
+        <file>tr.png</file>
+    </qresource>
+    <qresource prefix="/new/user">
+        <file>userDB.txt</file>
+    </qresource>
+</RCC>

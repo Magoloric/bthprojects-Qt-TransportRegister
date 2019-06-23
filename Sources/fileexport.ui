@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fileexport</class>
+ <widget class="QDialog" name="fileexport">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>549</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="exportButtons">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>360</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="whatToExport">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>511</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>All vehicles</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Private cars</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Private vans</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Motorbikes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Company cars</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Company vans</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Buses</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Export:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>521</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="15" column="0" rowspan="2">
+     <widget class="QRadioButton" name="sortByLoadCap">
+      <property name="text">
+       <string>Load capacity</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" rowspan="2">
+     <widget class="QRadioButton" name="sortByModel">
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1" rowspan="2">
+     <widget class="QRadioButton" name="sortByID">
+      <property name="text">
+       <string>Owner ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" rowspan="2">
+     <widget class="QRadioButton" name="sortByLicNr">
+      <property name="text">
+       <string>License number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" rowspan="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Private vehicles</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" rowspan="2">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Company vehicles</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1" rowspan="2">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Motorbike-specific</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2" rowspan="2">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Bus-specific</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" rowspan="2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Car-specific</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" rowspan="2">
+     <widget class="QRadioButton" name="sortByOrgNr">
+      <property name="text">
+       <string>Org. number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" rowspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>General</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" rowspan="2">
+     <widget class="QRadioButton" name="sortByOwName">
+      <property name="text">
+       <string>Owner Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" rowspan="2">
+     <widget class="QRadioButton" name="sortBySurname">
+      <property name="text">
+       <string>Owner surname</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="1" rowspan="3">
+     <widget class="QRadioButton" name="sortBySVol">
+      <property name="text">
+       <string>Swept volume</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2" rowspan="2">
+     <widget class="QRadioButton" name="sortByBusType">
+      <property name="text">
+       <string>Bus type</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0" rowspan="2">
+     <widget class="QRadioButton" name="sortByEnsur">
+      <property name="text">
+       <string>Ensurance</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="2" rowspan="2">
+     <widget class="QRadioButton" name="sortByBusNumber">
+      <property name="text">
+       <string>Bus number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1" rowspan="3">
+     <widget class="QRadioButton" name="sortByMaxSpeed">
+      <property name="text">
+       <string>Max. speed</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="2" rowspan="2">
+     <widget class="QRadioButton" name="sortByNrOfSeats">
+      <property name="text">
+       <string>Number of seats</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0" rowspan="2">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Van-specific</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2" rowspan="2">
+     <widget class="QRadioButton" name="sortByCompName">
+      <property name="text">
+       <string>Company name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QRadioButton" name="dontSortButton">
+      <property name="text">
+       <string>Do not sort</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>exportButtons</sender>
+   <signal>accepted()</signal>
+   <receiver>fileexport</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>exportButtons</sender>
+   <signal>rejected()</signal>
+   <receiver>fileexport</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

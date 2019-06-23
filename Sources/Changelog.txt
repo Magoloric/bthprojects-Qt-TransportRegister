@@ -1,0 +1,16 @@
+10.02.17 - First version of class-diagram
+13.02.17 - UI prototype is created
+16.02.17-22.02.17 - Transport objects created
+23.02.17 - First version of TransportRegister without GUI
+27.02.17 - Application prototype with GUI and working adding of single type of vehicles
+28.02.17 - Alpha-versions of sorting, editing and deleting.
+31.03.17 - Adding of vehicles implemented.
+02.04.17 - Filtering and deleting of vehicles implemented.
+21.04.17 - Editing of vehicles implemented.
+22.04.17 - Error-messages and info-window implemented. Design updated, about-window added.
+28.04.17 - Export to txt-files implemented, fixed editing bugs.
+30.04.17 - Import from txt-files implemented with both append and replace options. Fixed sorting bugs.
+01.05.17 - Clear-function implemented.
+03.05.17 - Search implemented.
+08.05.17 - Simple user system with groups implemented.
+12.05.17 - General pre-release bugfixes.

@@ -1,0 +1,53 @@
+
+Bus|SampleBus Sample|3X4MPL3|SampleTransport AB|54954|Demo|4|66| 
+
+Bus|Neoplan Skyliner L	|AJW365|Interbus AB||Travel|0|76| 
+
+PrivateCar|Ford Focus|ALA-232|Torbjorn|Olofsson|910416-2321|Dina| 
+
+PrivateCar|Lada Kalina|CLA-387|Crabe|Kingler|591214-1881|None| 
+
+Bus|Setra S416GT-HD|COJ433|Cederholms Buss AB, Vinslov||Travel|0|54| 
+
+PrivateCar|Tesla Model S|ELE-442|Nils|Vinge|920523-1432|None| 
+
+Motorbike|Suzuki GSX-S1000FA 2016|FLO-516|Armin|Kanter|690701-2241|90|999| 
+
+PrivateVan|Ford Transit Connect|FUG-484|Kajsa|Vikstrom|890919-6163|2200| 
+
+PrivateVan|IVECO Daily|GIG-334|Alexandra|Pskovska|930818-9146|2700| 
+
+PrivateVan|Mercedes-Benz Splinter|GUF-228|Viktor|Stenberg|610221-1766|3000| 
+
+PrivateCar|Volvo XC60|GVX-141|Sven|Torsten|780913-6919|Folksam| 
+
+CompanyCar|Hyundai i30|JOJ-214|Datambulans HB||None| 
+
+CompanyCar|Hyundai i30|JOJ-543|Datambulans HB||None| 
+
+Motorbike|Kawasaki Versys 650|KAI-512|Emilia|Ansio|950317-3357|70|649| 
+
+PrivateCar|Volvo S90|MUX-553|Simon|Lindman|870612-5610|Folksam| 
+
+PrivateCar|Skoda Octavia|PER-007|Henrik|Gustavsson|640413-6434|Trygg-Hansa| 
+
+PrivateCar|Mercedes-Benz GLC|PIV-731|Arne|Svenholm|881012-1670|Folksam| 
+
+Bus|Setra S419UL|RLF739|Lysekils Busstrafik AB, Lysekil||Regional|2190|57| 
+
+Bus|Carrus Delta 9700H NL|SYC661|Nettbuss Express AB, Goteborg||Express|0|58| 
+
+PrivateCar|Citroen C4 Cactus|VCC-532|Margaretha|Ballmer|841203-3344|None| 
+
+CompanyCar|Skoda Octavia|VIO-213|Arvika Kommun||Trygg-Hansa| 
+
+PrivateCar|Renault Captur|VOX-616|Isabell|Klarholm|720113-2311|If| 
+
+Bus|Scania Interlink MD|YDY732|Keolis Sverige AB||Regional|8508|56| 
+
+Bus|Setra S516HD|YEG539|Trosso Buss AB, Karlskrona||Travel|0|54| 
+
+Bus|Volvo 8500LE|YGC161|Nobina Fleet AB, Solna||City|6463|55| 
+
+CompanyVan|FIAT Ducato|YXA-643|Jetpak AB||3000| 
+
