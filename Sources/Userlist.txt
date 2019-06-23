@@ -1,4 +1,0 @@
-
-COMPANY|Blekingetrafiken|blekinge
-ADMIN|Transportstyrelsen|hardcorePassword
-USER|ThomSvens|animus
